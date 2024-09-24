@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+pydantic
+requests
+Pillow
+fal-client
+google-generativeai
+python-dotenv
+gunicorn
+jinja2
