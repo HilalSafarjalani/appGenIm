@@ -144,7 +144,7 @@ async def create_image(item: Item):
     arabic_proverb = generate_response(prompt_used)
 
     # Add styled Arabic proverb to the image
-    output_image_path = add_stylish_text(image_path, arabic_proverb, "fonts/Amiri-Regular.ttf",
+    output_image_path = add_stylish_text(image_path, arabic_proverb, "/Amiri-Regular.ttf",
                                          "static/final_image_with_text.jpg")
 
     # Return the path of the generated image and the proverb
